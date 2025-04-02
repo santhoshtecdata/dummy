@@ -22,7 +22,7 @@ jobs:
           java-version: '11'
 
       - name: Compile Java Program
-        run: javac Main.java
+        run: javac hello.java
 
       - name: Run Java Program
         run: java Main
