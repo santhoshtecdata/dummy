@@ -25,4 +25,4 @@ jobs:
         run: javac hello.java
 
       - name: Run Java Program
-        run: java Main
+        run: java hello
